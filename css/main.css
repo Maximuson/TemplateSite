@@ -1,0 +1,99 @@
+
+body{
+    background: #fff
+}
+
+.head-main{
+    display: flex;
+}
+.head-main div {
+    /* border: 1px solid silver; */
+    /* height: 4em; */
+    align-items: center;
+    height: 4em;
+    
+}
+.head-buttons h6{
+   padding: 1.3em
+}
+.head-buttons{
+    display: flex;
+    flex: 6
+}
+.head-buttons div{
+    flex: 1;
+}
+
+.head-logo {
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.head-logo h4{
+    margin-left: 1.1em
+}
+
+.head-contacts{
+    flex: 2;
+    align-items: center
+}
+.head-contacts h6{
+padding: 0.7em
+}
+
+.sign-up{
+    
+    
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    /* background: url(https://www.mailerlite.com/assets/blog/hackathon-mailerlite.jpg) no-repeat center fixed; */
+    background: url(https://mussolblog.files.wordpress.com/2014/04/hackathon.jpg) no-repeat center fixed;
+    background-size: cover;
+    
+
+}
+.sign-up-text{
+    position: fixed;
+    width: 50%;
+    padding: 3em;
+    margin-top: 2em;
+    color: #fff;
+    font-family: 'Overpass';
+    
+    
+    
+}
+.sign-up2{
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+
+}
+.orange{
+    background-color: #efc600;
+    border:#efc600;
+}
+.half{
+    width: 50%;
+}
+
+@media only screen and (min-width: 480px) {
+    /* Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее. */
+  
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Планшеты в режиме portrait. */
+
+  }
+  
+  @media only screen and (min-width: 992px) {
+    /* Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп. */
+
+  }
+  
+  @media only screen and (min-width: 1382px) {
+    /* Десктоп с большими разрешениями, телевизоры. */
+  
+  }
