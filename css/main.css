@@ -56,19 +56,16 @@ padding: 0.7em
 }
 
 .sign-up{
-    
-    
-    position: fixed; 
     width: 100%;
-    height: 100%;
+    
     /* background: url(https://www.mailerlite.com/assets/blog/hackathon-mailerlite.jpg) no-repeat center fixed; */
-    background: url(https://mussolblog.files.wordpress.com/2014/04/hackathon.jpg) no-repeat center fixed;
+    background: url(https://mussolblog.files.wordpress.com/2014/04/hackathon.jpg) no-repeat center;
     background-size: cover;
     
 
 }
 .sign-up-text{
-    position: fixed;
+   
     width: 50%;
     padding: 3em;
     margin-top: 2em;
@@ -78,9 +75,7 @@ padding: 0.7em
 }
 .sign-up2{
     display: flex;
-    width: 1000px;
-    height: 1000px;
-
+    
 }
 .orange{
     background-color: #efc600;
